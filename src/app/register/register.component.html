@@ -1,0 +1,8 @@
+<h1>Rejestracja</h1>
+<form>
+  <input type="email" [formControl]="email" placeholder="E-Mail">
+  <input type="text" [formControl]="username" placeholder="Username">
+  <input type="password" [formControl]="password" placeholder="Password">
+  <input type="password" [formControl]="repeatPassword" placeholder="Repeat password">
+  <button (click)="register()">Zarejestruj</button>
+</form>

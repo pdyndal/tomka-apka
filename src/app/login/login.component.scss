@@ -1,0 +1,36 @@
+@import "../../assets/theme";
+
+h1 {
+  color: $accent;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: .5rem;
+
+  input {
+    border-radius: $radius;
+    border: none;
+
+    padding: .5rem;
+  }
+
+  button {
+    border-radius: $radius;
+    border: none;
+    padding: .5rem;
+    background-color: $dark-beige;
+    color: $dark-purple;
+    font-weight: bold;
+
+    transition: all .2s ease-in-out;
+  }
+
+  button:hover {
+    background-color: $light-beige;
+    color: $light-purple;
+
+    transition: all .2s ease-in-out;
+  }
+}

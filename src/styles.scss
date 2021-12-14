@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap');
+@import "~normalize.css";
+@import 'assets/theme';
+
+html, body {
+  color: $light-beige;
+  font-family: 'Mirza', cursive;
+}
